@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets\css\style.css">
+    <script src="assets\javascript\java.js"></script>
+    <iframe src="assets\navbar\navbar.html" frameborder="0" style="overflow:hidden; 
+    height:100%; 
+    width:300px; 
+    position:absolute; 
+    top:0px; 
+    left:0px; 
+    right:0px; 
+    bottom:0px"></iframe>
+</head>
+
+<body class="bodyAll gridDashboard">
+    <h1 class="stopBeingSoDifficult">Dashboard</h1>
+    <div class="bodyAll gridTable">
+        <table class="study_table textBoxes">
+            <tr>
+                <th>blok</th>
+                <th>cursus</th>
+                <th>EC</th>
+                <th>toets</th>
+                <th>cijfer</th>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>Programme and Career Orientation</td>
+                <td>2,5</td>
+                <td>assessment exam</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan=>Computer Science Basics</td>
+                <td rowspan=>7,5</td>
+                <td>written exam</td>
+                <td rowspan=></td>
+            </tr>
+            <tr>
+                <td>Programming Basics</td>
+                <td>5</td>
+                <td>case study exam</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="2">Object Oriented Programming</td>
+                <td rowspan="2">10</td>
+                <td>Case study</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Project</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Professional Skills 1</td>
+                <td>2,5</td>
+                <td>Portfolio exam</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="7">3</td>
+                <td>Professional Working Environment</td>
+                <td>2,5</td>
+                <td>Assessment exam</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Framework Development 1</td>
+                <td>5</td>
+                <td>Case study</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">Framework Project 1</td>
+                <td rowspan="2">5</td>
+                <td>Portfolio exam #1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Portfolio exam #2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="3">Professional Skills 2</td>
+                <td rowspan="3">2,5</td>
+                <td>Portfolio exam</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Written exam #1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Written exam #2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="5">4</td>
+                <td>Framework Development 2</td>
+                <td>5</td>
+                <td>Portfolio exam</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Framework Project 2</td>
+                <td>5</td>
+                <td>Portfolio exam</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="3">Professional skills 3</td>
+                <td rowspan="3">2,5</td>
+                <td>Portfolio exam</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Written exam #1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Written exam #2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">All year</td>
+                <td>HZ Personality</td>
+                <td>2,5</td>
+                <td>Portfolio</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>IT Personality</td>
+                <td>2,5</td>
+                <td>Portfolio</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="progressBar textBoxes" style="float: inline-start;">
+        <label for="bar_year_one">Voortgang jaar 1</label>
+        <progress id="bar_year_one" min="0" max="60" value="10"></progress>
+        <button onclick="detailsYearOne()">EC</button>
+
+        <p id="EC_year_one"></p>
+
+        <label for="bar_year_two">Voortgang jaar 2</label>
+        <progress id="bar_year_two" min="0" max="60" value="20"></progress>
+        <button onclick="detailsYearTwo()">EC</button><br>
+
+        <p id="EC_year_two"></p>
+
+
+        <label for="bar_year_three">Voortgang jaar 3</label>
+        <progress id="bar_year_three" min="0" max="60" value="30"></progress>
+        <button onclick="detailsYearThree()">EC</button><br>
+
+        <p id="EC_year_three"></p>
+
+
+        <label for="bar_year_four">Voortgang jaar 4</label>
+        <progress id="bar_year_four" min="0" max="60" value="40"></progress>
+        <button onclick="detailsYearFour()">EC</button><br>
+
+        <p id="EC_year_four"></p>
+    </div>
+    <div class="bodyAll dashboardLinks textBoxes">
+        <ul class="dashboardLinks">
+            <li><a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target="_blank"
+                    alt="regelingen">onderwijs-en-examenregelingen</a></li>
+            <li><a href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
+                    target="_blank" alt="eisen">uitvoeringsregeling</a></li>
+            <li><a href="https://learn.hz.nl/my/" target="_blank" alt="Learn">Learn</a> </li>
+            <li><a href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c"
+                    target="_blank" alt="Teams">Teams</a> </li>
+            <li><a href="https://portal.hz.nl/en/" target="_blank" alt="MyHZ">MyHZ Portal</a> </li>
+            <li><a href="https://github.com/Stefan989732" target="_blank" alt="Github link">Github</a> </li>
+        </ul>
+    </div>
+</body>
+
+</html>
