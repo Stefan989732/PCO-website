@@ -138,7 +138,7 @@ progress {
 .faqGrid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 200px repeat(7, auto)
+    grid-template-rows: 200px auto;
 }
 
 /* question button css */
@@ -210,4 +210,11 @@ progress {
     grid-row-end: 4; 
     margin-top: 25px;
     margin-left: 25px;
+}
+
+/* motivation page css */
+.gridMotivation {
+    display: grid;
+    grid-template-columns: 50%, 25%, 25%;
+    grid-template-rows: 200px, auto, auto;
 }
